@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+
 }
 
 :root{
@@ -38,5 +40,5 @@
 
 }
 body{
-  font: var(--heading-1);
+  overflow: hidden;
 }
