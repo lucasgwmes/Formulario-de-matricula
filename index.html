@@ -31,6 +31,57 @@
             Preencha os dados abaixo para matricular seu filho na escola de
             educação infantil Estrelas do Amanhã.
           </p>
+
+          <form method="post" enctype="multipart/form-data">
+            <fieldset class="input-info">
+              <div class="input-wrapper">
+                <label for="fullname">Nome completo</label>
+                <input 
+                id="fullname"
+                type="text"
+                placeholder="Qual o nome da criança"
+                name="fullname"
+                >
+              </div>
+              <div class="input-wrapper">
+                <label for="birth">Data de nascimento</label>
+                <input 
+                type="date"
+                id="birth"
+                lang="pt-BR" 
+                name="birth"
+                >
+              </div>
+              <div class="select-wrapper">
+                <label for="gender">Sexo</label>
+                <select 
+                name="gender" 
+                id="gender"
+                ></select>
+                <option value="female">Feminino</option>
+                <option value="male">Masculino</option>
+                <option value="na">prefiro não responder</option>
+              </div>
+
+              <div class="textarea-wrapper">
+                <label for="medical-info">Informaçoes médicas</label>
+                <textarea 
+                name="medical-info" 
+                id="medical-info"
+                cols="30" rows="10"
+                placeholder="A criança possui alguma condição médica que a escola deve estar ciente? (Se sim, especifique)"></textarea>
+              </div>
+              <div class="droparea">
+                <input 
+                type="file"
+                id="birth-file"
+                name="birth-file"
+                >
+                <img src="assets/ícons/cloud-upload.svg" alt="">
+                <p>clique aqui para <br> selecionar arquivos</p>
+              </div>
+            </fieldset>
+          </form>
         </div>
       </main>
       <aside>
@@ -45,4 +96,4 @@
       </aside>
     </div>
   </body>
-</html>
+< /html>
