@@ -53,3 +53,14 @@ img{
   max-width: 100%;
   height: auto;
 }
+
+.address .flex{
+  display: flex;
+  gap: 1.25rem;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-2{
+  flex: 2;
+}
